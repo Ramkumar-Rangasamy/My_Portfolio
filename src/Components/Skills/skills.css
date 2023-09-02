@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-image: url('./images/hard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.wrapper .wap{
+    position:relative;
+    font-family: sans-serif;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(20, 22, 22, 0.5);
+}
+
+.top_div{
+    position:relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top_div h1{
+    position:relative;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.content-five{
+    position: relative;
+    width: 300px;
+    padding:20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  
+   
+
+}
+.content-five:hover{
+    background-color: rgb(48, 34, 83);
+    transition: 0.9s;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 2px solid rgb(223, 237, 170);
+    box-shadow: 0px 0px 20px rgb(223, 237, 170) ;
+   
+}
+
+.content-five img{
+    position: relative;
+    width:100px;
+    height: 100px;
+    padding: 10px;
+    background-color:rgba(220, 234, 232, 0.621);
+    border-radius: 50%;
+
+}
+.content-five h2{
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 20px;
+    text-transform: uppercase;
+
+}
+
+.content-five p{
+   font-size: 13px;
+   font-weight: bolder;
+}
+
+
+
